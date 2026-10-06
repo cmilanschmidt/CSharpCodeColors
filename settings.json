@@ -1,0 +1,1726 @@
+{
+  "editor.semanticTokenColorCustomizations": {
+    "[Dark 2026]": {
+      "enabled": true,
+      "rules": {
+        "comment:csharp": {
+          "foreground": "#57A64A",
+          "fontStyle": ""
+        },
+        "keyword:csharp": {
+          "foreground": "#569CD6",
+          "fontStyle": ""
+        },
+        "controlKeyword:csharp": {
+          "foreground": "#D8A0DF",
+          "fontStyle": ""
+        },
+        "operator:csharp": {
+          "foreground": "#B4B4B4",
+          "fontStyle": ""
+        },
+        "operatorOverloaded:csharp": {
+          "foreground": "#DCDCAA",
+          "fontStyle": ""
+        },
+        "punctuation:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "number:csharp": {
+          "foreground": "#B5CEA8",
+          "fontStyle": ""
+        },
+        "string:csharp": {
+          "foreground": "#D69D85",
+          "fontStyle": ""
+        },
+        "stringVerbatim:csharp": {
+          "foreground": "#D69D85",
+          "fontStyle": ""
+        },
+        "stringEscapeCharacter:csharp": {
+          "foreground": "#FFD68F",
+          "fontStyle": ""
+        },
+        "macro:csharp": {
+          "foreground": "#9B9B9B",
+          "fontStyle": ""
+        },
+        "preprocessorText:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "excludedCode:csharp": {
+          "foreground": "#9B9B9B",
+          "fontStyle": ""
+        },
+        "xmlDocCommentText:csharp": {
+          "foreground": "#608B4E",
+          "fontStyle": ""
+        },
+        "xmlDocCommentDelimiter:csharp": {
+          "foreground": "#608B4E",
+          "fontStyle": ""
+        },
+        "xmlDocCommentName:csharp": {
+          "foreground": "#608B4E",
+          "fontStyle": ""
+        },
+        "xmlDocCommentAttributeName:csharp": {
+          "foreground": "#C8C8C8",
+          "fontStyle": ""
+        },
+        "xmlDocCommentAttributeQuotes:csharp": {
+          "foreground": "#C8C8C8",
+          "fontStyle": ""
+        },
+        "xmlDocCommentAttributeValue:csharp": {
+          "foreground": "#C8C8C8",
+          "fontStyle": ""
+        },
+        "xmlDocCommentCDataSection:csharp": {
+          "foreground": "#E9D585",
+          "fontStyle": ""
+        },
+        "xmlDocCommentComment:csharp": {
+          "foreground": "#608B4E",
+          "fontStyle": ""
+        },
+        "xmlDocCommentEntityReference:csharp": {
+          "foreground": "#608B4E",
+          "fontStyle": ""
+        },
+        "xmlDocCommentProcessingInstruction:csharp": {
+          "foreground": "#608B4E",
+          "fontStyle": ""
+        },
+        "class:csharp": {
+          "foreground": "#4EC9B0",
+          "fontStyle": ""
+        },
+        "recordClass:csharp": {
+          "foreground": "#4EC9B0",
+          "fontStyle": ""
+        },
+        "struct:csharp": {
+          "foreground": "#86C691",
+          "fontStyle": ""
+        },
+        "recordStruct:csharp": {
+          "foreground": "#86C691",
+          "fontStyle": ""
+        },
+        "interface:csharp": {
+          "foreground": "#B8D7A3",
+          "fontStyle": ""
+        },
+        "enum:csharp": {
+          "foreground": "#B8D7A3",
+          "fontStyle": ""
+        },
+        "delegate:csharp": {
+          "foreground": "#4EC9B0",
+          "fontStyle": ""
+        },
+        "typeParameter:csharp": {
+          "foreground": "#B8D7A3",
+          "fontStyle": ""
+        },
+        "namespace:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "method:csharp": {
+          "foreground": "#DCDCAA",
+          "fontStyle": ""
+        },
+        "extensionMethod:csharp": {
+          "foreground": "#DCDCAA",
+          "fontStyle": ""
+        },
+        "property:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "event:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "field:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "constant:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "enumMember:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "variable:csharp": {
+          "foreground": "#9CDCFE",
+          "fontStyle": ""
+        },
+        "parameter:csharp": {
+          "foreground": "#9CDCFE",
+          "fontStyle": ""
+        },
+        "label:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "regexAlternation:csharp": {
+          "foreground": "#05C3BA",
+          "fontStyle": ""
+        },
+        "regexAnchor:csharp": {
+          "foreground": "#F979AE",
+          "fontStyle": ""
+        },
+        "regexCharacterClass:csharp": {
+          "foreground": "#2EABFE",
+          "fontStyle": ""
+        },
+        "regexComment:csharp": {
+          "foreground": "#57A64A",
+          "fontStyle": ""
+        },
+        "regexGrouping:csharp": {
+          "foreground": "#05C3BA",
+          "fontStyle": ""
+        },
+        "regexOtherEscape:csharp": {
+          "foreground": "#FFD68F",
+          "fontStyle": ""
+        },
+        "regexQuantifier:csharp": {
+          "foreground": "#F979AE",
+          "fontStyle": ""
+        },
+        "regexSelfEscapedCharacter:csharp": {
+          "foreground": "#D69D85",
+          "fontStyle": "bold"
+        },
+        "regexText:csharp": {
+          "foreground": "#D69D85",
+          "fontStyle": ""
+        },
+        "jsonArray:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "jsonComment:csharp": {
+          "foreground": "#57A64A",
+          "fontStyle": ""
+        },
+        "jsonConstructorName:csharp": {
+          "foreground": "#86C691",
+          "fontStyle": ""
+        },
+        "jsonKeyword:csharp": {
+          "foreground": "#569CD6",
+          "fontStyle": ""
+        },
+        "jsonNumber:csharp": {
+          "foreground": "#B5CEA8",
+          "fontStyle": ""
+        },
+        "jsonObject:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "jsonOperator:csharp": {
+          "foreground": "#B4B4B4",
+          "fontStyle": ""
+        },
+        "jsonPropertyName:csharp": {
+          "foreground": "#DCDCAA",
+          "fontStyle": ""
+        },
+        "jsonPunctuation:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        },
+        "jsonString:csharp": {
+          "foreground": "#D69D85",
+          "fontStyle": ""
+        },
+        "jsonText:csharp": {
+          "foreground": "#DCDCDC",
+          "fontStyle": ""
+        }
+      }
+    },
+    "[Light 2026]": {
+      "enabled": true,
+      "rules": {
+        "comment:csharp": {
+          "foreground": "#008000",
+          "fontStyle": ""
+        },
+        "keyword:csharp": {
+          "foreground": "#0000FF",
+          "fontStyle": ""
+        },
+        "controlKeyword:csharp": {
+          "foreground": "#8F08C4",
+          "fontStyle": ""
+        },
+        "operator:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "operatorOverloaded:csharp": {
+          "foreground": "#74531F",
+          "fontStyle": ""
+        },
+        "punctuation:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "number:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "string:csharp": {
+          "foreground": "#A31515",
+          "fontStyle": ""
+        },
+        "stringVerbatim:csharp": {
+          "foreground": "#800000",
+          "fontStyle": ""
+        },
+        "stringEscapeCharacter:csharp": {
+          "foreground": "#B776FB",
+          "fontStyle": ""
+        },
+        "macro:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "preprocessorText:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "excludedCode:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "xmlDocCommentText:csharp": {
+          "foreground": "#008000",
+          "fontStyle": ""
+        },
+        "xmlDocCommentDelimiter:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "xmlDocCommentName:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "xmlDocCommentAttributeName:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "xmlDocCommentAttributeQuotes:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "xmlDocCommentAttributeValue:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "xmlDocCommentCDataSection:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "xmlDocCommentComment:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "xmlDocCommentEntityReference:csharp": {
+          "foreground": "#008000",
+          "fontStyle": ""
+        },
+        "xmlDocCommentProcessingInstruction:csharp": {
+          "foreground": "#808080",
+          "fontStyle": ""
+        },
+        "class:csharp": {
+          "foreground": "#2B91AF",
+          "fontStyle": ""
+        },
+        "recordClass:csharp": {
+          "foreground": "#2B91AF",
+          "fontStyle": ""
+        },
+        "struct:csharp": {
+          "foreground": "#2B91AF",
+          "fontStyle": ""
+        },
+        "recordStruct:csharp": {
+          "foreground": "#2B91AF",
+          "fontStyle": ""
+        },
+        "interface:csharp": {
+          "foreground": "#2B91AF",
+          "fontStyle": ""
+        },
+        "enum:csharp": {
+          "foreground": "#2B91AF",
+          "fontStyle": ""
+        },
+        "delegate:csharp": {
+          "foreground": "#2B91AF",
+          "fontStyle": ""
+        },
+        "typeParameter:csharp": {
+          "foreground": "#2B91AF",
+          "fontStyle": ""
+        },
+        "namespace:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "method:csharp": {
+          "foreground": "#74531F",
+          "fontStyle": ""
+        },
+        "extensionMethod:csharp": {
+          "foreground": "#74531F",
+          "fontStyle": ""
+        },
+        "property:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "event:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "field:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "constant:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "enumMember:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "variable:csharp": {
+          "foreground": "#1F377F",
+          "fontStyle": ""
+        },
+        "parameter:csharp": {
+          "foreground": "#1F377F",
+          "fontStyle": ""
+        },
+        "label:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "regexAlternation:csharp": {
+          "foreground": "#05C3BA",
+          "fontStyle": ""
+        },
+        "regexAnchor:csharp": {
+          "foreground": "#FF00C1",
+          "fontStyle": ""
+        },
+        "regexCharacterClass:csharp": {
+          "foreground": "#0073FF",
+          "fontStyle": ""
+        },
+        "regexComment:csharp": {
+          "foreground": "#008000",
+          "fontStyle": ""
+        },
+        "regexGrouping:csharp": {
+          "foreground": "#05C3BA",
+          "fontStyle": ""
+        },
+        "regexOtherEscape:csharp": {
+          "foreground": "#9E5B71",
+          "fontStyle": ""
+        },
+        "regexQuantifier:csharp": {
+          "foreground": "#FF00C1",
+          "fontStyle": ""
+        },
+        "regexSelfEscapedCharacter:csharp": {
+          "foreground": "#800000",
+          "fontStyle": "bold"
+        },
+        "regexText:csharp": {
+          "foreground": "#800000",
+          "fontStyle": ""
+        },
+        "jsonArray:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "jsonComment:csharp": {
+          "foreground": "#008000",
+          "fontStyle": ""
+        },
+        "jsonConstructorName:csharp": {
+          "foreground": "#2B91AF",
+          "fontStyle": ""
+        },
+        "jsonKeyword:csharp": {
+          "foreground": "#0000FF",
+          "fontStyle": ""
+        },
+        "jsonNumber:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "jsonObject:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "jsonOperator:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "jsonPropertyName:csharp": {
+          "foreground": "#74531F",
+          "fontStyle": ""
+        },
+        "jsonPunctuation:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        },
+        "jsonString:csharp": {
+          "foreground": "#A31515",
+          "fontStyle": ""
+        },
+        "jsonText:csharp": {
+          "foreground": "#000000",
+          "fontStyle": ""
+        }
+      }
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Dark 2026]": {
+      "textMateRules": [
+        {
+          "name": "Visual Studio: Plain Text",
+          "scope": [
+            "source.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Comment",
+          "scope": [
+            "source.cs comment.line.double-slash.cs",
+            "source.cs comment.block.cs",
+            "source.cs punctuation.definition.comment.cs"
+          ],
+          "settings": {
+            "foreground": "#57A64A",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Keyword",
+          "scope": [
+            "source.cs keyword.type.bool.cs",
+            "source.cs keyword.type.byte.cs",
+            "source.cs keyword.type.sbyte.cs",
+            "source.cs keyword.type.short.cs",
+            "source.cs keyword.type.ushort.cs",
+            "source.cs keyword.type.int.cs",
+            "source.cs keyword.type.uint.cs",
+            "source.cs keyword.type.nint.cs",
+            "source.cs keyword.type.nuint.cs",
+            "source.cs keyword.type.long.cs",
+            "source.cs keyword.type.ulong.cs",
+            "source.cs keyword.type.float.cs",
+            "source.cs keyword.type.double.cs",
+            "source.cs keyword.type.decimal.cs",
+            "source.cs keyword.type.char.cs",
+            "source.cs keyword.type.string.cs",
+            "source.cs keyword.type.object.cs",
+            "source.cs keyword.type.void.cs",
+            "source.cs keyword.type.dynamic.cs",
+            "source.cs storage.modifier.new.cs",
+            "source.cs storage.modifier.public.cs",
+            "source.cs storage.modifier.protected.cs",
+            "source.cs storage.modifier.internal.cs",
+            "source.cs storage.modifier.private.cs",
+            "source.cs storage.modifier.abstract.cs",
+            "source.cs storage.modifier.virtual.cs",
+            "source.cs storage.modifier.override.cs",
+            "source.cs storage.modifier.sealed.cs",
+            "source.cs storage.modifier.static.cs",
+            "source.cs storage.modifier.partial.cs",
+            "source.cs storage.modifier.readonly.cs",
+            "source.cs storage.modifier.volatile.cs",
+            "source.cs storage.modifier.const.cs",
+            "source.cs storage.modifier.extern.cs",
+            "source.cs storage.modifier.async.cs",
+            "source.cs storage.modifier.unsafe.cs",
+            "source.cs storage.modifier.ref.cs",
+            "source.cs storage.modifier.required.cs",
+            "source.cs storage.modifier.file.cs",
+            "source.cs storage.modifier.in.cs",
+            "source.cs storage.modifier.out.cs",
+            "source.cs storage.modifier.params.cs",
+            "source.cs storage.modifier.this.cs",
+            "source.cs storage.modifier.explicit.cs",
+            "source.cs storage.modifier.implicit.cs",
+            "source.cs storage.modifier.fixed.cs",
+            "source.cs storage.modifier.where.cs",
+            "source.cs storage.type.class.cs",
+            "source.cs storage.type.delegate.cs",
+            "source.cs storage.type.enum.cs",
+            "source.cs storage.type.event.cs",
+            "source.cs storage.type.interface.cs",
+            "source.cs storage.type.namespace.cs",
+            "source.cs storage.type.operator.cs",
+            "source.cs storage.type.record.cs",
+            "source.cs storage.type.struct.cs",
+            "source.cs storage.type.union.cs",
+            "source.cs storage.type.var.cs",
+            "source.cs storage.type.accessor.get.cs",
+            "source.cs storage.type.accessor.set.cs",
+            "source.cs storage.type.accessor.init.cs",
+            "source.cs storage.type.accessor.add.cs",
+            "source.cs storage.type.accessor.remove.cs",
+            "source.cs keyword.other.attribute-specifier.cs",
+            "source.cs keyword.other.constraint.default.cs",
+            "source.cs keyword.other.constraint.notnull.cs",
+            "source.cs keyword.other.constraint.unmanaged.cs",
+            "source.cs keyword.other.directive.alias.cs",
+            "source.cs keyword.other.directive.extern.cs",
+            "source.cs keyword.other.directive.global.cs",
+            "source.cs keyword.other.directive.static.cs",
+            "source.cs keyword.other.directive.using.cs",
+            "source.cs keyword.operator.expression.as.cs",
+            "source.cs keyword.operator.expression.default.cs",
+            "source.cs keyword.operator.expression.new.cs",
+            "source.cs keyword.operator.expression.pattern.is.cs",
+            "source.cs keyword.operator.expression.with.cs",
+            "source.cs keyword.operator.expression.checked.cs",
+            "source.cs keyword.operator.expression.unchecked.cs",
+            "source.cs keyword.operator.expression.nameof.cs",
+            "source.cs keyword.operator.expression.sizeof.cs",
+            "source.cs keyword.operator.expression.typeof.cs",
+            "source.cs keyword.operator.expression.stackalloc.cs",
+            "source.cs keyword.operator.expression.pattern.combinator.and.cs",
+            "source.cs keyword.operator.expression.pattern.combinator.or.cs",
+            "source.cs keyword.operator.expression.pattern.combinator.not.cs",
+            "source.cs keyword.operator.expression.query.ascending.cs",
+            "source.cs keyword.operator.expression.query.by.cs",
+            "source.cs keyword.operator.expression.query.descending.cs",
+            "source.cs keyword.operator.expression.query.equals.cs",
+            "source.cs keyword.operator.expression.query.from.cs",
+            "source.cs keyword.operator.expression.query.group.cs",
+            "source.cs keyword.operator.expression.query.in.cs",
+            "source.cs keyword.operator.expression.query.into.cs",
+            "source.cs keyword.operator.expression.query.join.cs",
+            "source.cs keyword.operator.expression.query.let.cs",
+            "source.cs keyword.operator.expression.query.on.cs",
+            "source.cs keyword.operator.expression.query.orderby.cs",
+            "source.cs keyword.operator.expression.query.select.cs",
+            "source.cs keyword.operator.expression.query.where.cs",
+            "source.cs keyword.control.context.fixed.cs",
+            "source.cs keyword.control.context.lock.cs",
+            "source.cs keyword.control.context.using.cs",
+            "source.cs keyword.control.context.checked.cs",
+            "source.cs keyword.control.context.unchecked.cs",
+            "source.cs keyword.control.context.unsafe.cs",
+            "source.cs variable.language.this.cs",
+            "source.cs variable.language.base.cs",
+            "source.cs variable.language.discard.cs",
+            "source.cs meta.accessor.setter.cs variable.other.value.cs",
+            "source.cs constant.language.boolean.true.cs",
+            "source.cs constant.language.boolean.false.cs",
+            "source.cs constant.language.null.cs"
+          ],
+          "settings": {
+            "foreground": "#569CD6",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: keyword - control",
+          "scope": [
+            "source.cs keyword.control.conditional.case.cs",
+            "source.cs keyword.control.conditional.default.cs",
+            "source.cs keyword.control.conditional.else.cs",
+            "source.cs keyword.control.conditional.if.cs",
+            "source.cs keyword.control.conditional.switch.cs",
+            "source.cs keyword.control.conditional.when.cs",
+            "source.cs keyword.control.exception.catch.cs",
+            "source.cs keyword.control.exception.finally.cs",
+            "source.cs keyword.control.exception.try.cs",
+            "source.cs keyword.control.exception.when.cs",
+            "source.cs keyword.control.flow.break.cs",
+            "source.cs keyword.control.flow.continue.cs",
+            "source.cs keyword.control.flow.goto.cs",
+            "source.cs keyword.control.flow.return.cs",
+            "source.cs keyword.control.flow.throw.cs",
+            "source.cs keyword.control.flow.yield.cs",
+            "source.cs keyword.control.loop.do.cs",
+            "source.cs keyword.control.loop.for.cs",
+            "source.cs keyword.control.loop.foreach.cs",
+            "source.cs keyword.control.loop.in.cs",
+            "source.cs keyword.control.loop.while.cs",
+            "source.cs keyword.operator.expression.await.cs"
+          ],
+          "settings": {
+            "foreground": "#D8A0DF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Operator",
+          "scope": [
+            "source.cs keyword.operator.arithmetic.cs",
+            "source.cs keyword.operator.arrow.cs",
+            "source.cs keyword.operator.assignment.cs",
+            "source.cs keyword.operator.assignment.compound.cs",
+            "source.cs keyword.operator.assignment.compound.bitwise.cs",
+            "source.cs keyword.operator.bitwise.cs",
+            "source.cs keyword.operator.bitwise.shift.cs",
+            "source.cs keyword.operator.comparison.cs",
+            "source.cs keyword.operator.conditional.colon.cs",
+            "source.cs keyword.operator.conditional.question-mark.cs",
+            "source.cs keyword.operator.decrement.cs",
+            "source.cs keyword.operator.increment.cs",
+            "source.cs keyword.operator.logical.cs",
+            "source.cs keyword.operator.null-coalescing.cs",
+            "source.cs keyword.operator.null-conditional.cs",
+            "source.cs keyword.operator.relational.cs",
+            "source.cs punctuation.accessor.cs",
+            "source.cs punctuation.accessor.pointer.cs",
+            "source.cs punctuation.separator.coloncolon.cs",
+            "source.cs punctuation.separator.question-mark.cs",
+            "source.cs punctuation.separator.asterisk.cs",
+            "source.cs punctuation.tilde.cs"
+          ],
+          "settings": {
+            "foreground": "#B4B4B4",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: punctuation",
+          "scope": [
+            "source.cs punctuation.curlybrace.open.cs",
+            "source.cs punctuation.curlybrace.close.cs",
+            "source.cs punctuation.parenthesis.open.cs",
+            "source.cs punctuation.parenthesis.close.cs",
+            "source.cs punctuation.squarebracket.open.cs",
+            "source.cs punctuation.squarebracket.close.cs",
+            "source.cs punctuation.definition.typeparameters.begin.cs",
+            "source.cs punctuation.definition.typeparameters.end.cs",
+            "source.cs punctuation.terminator.statement.cs",
+            "source.cs punctuation.separator.comma.cs",
+            "source.cs punctuation.separator.colon.cs",
+            "source.cs keyword.operator.range.cs",
+            "source.cs meta.embedded.interpolation.cs",
+            "source.cs punctuation.definition.interpolation.begin.cs",
+            "source.cs punctuation.definition.interpolation.end.cs",
+            "source.cs meta.embedded.interpolation.cs keyword.operator.conditional.colon.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Number",
+          "scope": [
+            "source.cs constant.numeric.decimal.cs",
+            "source.cs constant.numeric.hex.cs",
+            "source.cs constant.numeric.binary.cs",
+            "source.cs constant.numeric.other.exponent.cs",
+            "source.cs constant.numeric.other.preffix.hex.cs",
+            "source.cs constant.numeric.other.preffix.binary.cs",
+            "source.cs constant.numeric.other.separator.decimals.cs",
+            "source.cs constant.numeric.other.separator.thousands.cs",
+            "source.cs constant.numeric.other.suffix.cs"
+          ],
+          "settings": {
+            "foreground": "#B5CEA8",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: String",
+          "scope": [
+            "source.cs string.quoted.double.cs",
+            "source.cs string.quoted.single.cs",
+            "source.cs punctuation.definition.string.begin.cs",
+            "source.cs punctuation.definition.string.end.cs",
+            "source.cs punctuation.definition.char.begin.cs",
+            "source.cs punctuation.definition.char.end.cs"
+          ],
+          "settings": {
+            "foreground": "#D69D85",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: string - escape character",
+          "scope": [
+            "source.cs constant.character.escape.cs"
+          ],
+          "settings": {
+            "foreground": "#FFD68F",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Preprocessor Keyword",
+          "scope": [
+            "source.cs meta.preprocessor.cs",
+            "source.cs punctuation.separator.hash.cs",
+            "source.cs keyword.preprocessor.checksum.cs",
+            "source.cs keyword.preprocessor.default.cs",
+            "source.cs keyword.preprocessor.define.cs",
+            "source.cs keyword.preprocessor.disable.cs",
+            "source.cs keyword.preprocessor.elif.cs",
+            "source.cs keyword.preprocessor.else.cs",
+            "source.cs keyword.preprocessor.endif.cs",
+            "source.cs keyword.preprocessor.endregion.cs",
+            "source.cs keyword.preprocessor.error.cs",
+            "source.cs keyword.preprocessor.exclude.cs",
+            "source.cs keyword.preprocessor.hidden.cs",
+            "source.cs keyword.preprocessor.if.cs",
+            "source.cs keyword.preprocessor.include.cs",
+            "source.cs keyword.preprocessor.line.cs",
+            "source.cs keyword.preprocessor.load.cs",
+            "source.cs keyword.preprocessor.package.cs",
+            "source.cs keyword.preprocessor.pragma.cs",
+            "source.cs keyword.preprocessor.project.cs",
+            "source.cs keyword.preprocessor.property.cs",
+            "source.cs keyword.preprocessor.r.cs",
+            "source.cs keyword.preprocessor.ref.cs",
+            "source.cs keyword.preprocessor.region.cs",
+            "source.cs keyword.preprocessor.restore.cs",
+            "source.cs keyword.preprocessor.sdk.cs",
+            "source.cs keyword.preprocessor.undef.cs",
+            "source.cs keyword.preprocessor.warning.cs"
+          ],
+          "settings": {
+            "foreground": "#9B9B9B",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: preprocessor text",
+          "scope": [
+            "source.cs string.unquoted.preprocessor.message.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - text",
+          "scope": [
+            "source.cs comment.block.documentation.cs"
+          ],
+          "settings": {
+            "foreground": "#608B4E",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - delimiter",
+          "scope": [
+            "source.cs comment.block.documentation.cs punctuation.definition.comment.cs",
+            "source.cs comment.block.documentation.cs punctuation.definition.tag.cs",
+            "source.cs comment.block.documentation.cs punctuation.separator.equals.cs",
+            "source.cs comment.block.documentation.cs comment.block.cs punctuation.definition.comment.cs",
+            "source.cs comment.block.documentation.cs string.unquoted.cdata.cs punctuation.definition.string.begin.cs",
+            "source.cs comment.block.documentation.cs string.unquoted.cdata.cs punctuation.definition.string.end.cs"
+          ],
+          "settings": {
+            "foreground": "#608B4E",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - name",
+          "scope": [
+            "source.cs entity.name.tag.cs",
+            "source.cs entity.name.tag.localname.cs",
+            "source.cs entity.name.tag.namespace.cs"
+          ],
+          "settings": {
+            "foreground": "#608B4E",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - attribute name",
+          "scope": [
+            "source.cs entity.other.attribute-name.cs",
+            "source.cs entity.other.attribute-name.localname.cs",
+            "source.cs entity.other.attribute-name.namespace.cs"
+          ],
+          "settings": {
+            "foreground": "#C8C8C8",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - attribute quotes",
+          "scope": [
+            "source.cs comment.block.documentation.cs meta.tag.cs punctuation.definition.string.begin.cs",
+            "source.cs comment.block.documentation.cs meta.tag.cs punctuation.definition.string.end.cs"
+          ],
+          "settings": {
+            "foreground": "#C8C8C8",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - attribute value",
+          "scope": [
+            "source.cs comment.block.documentation.cs string.quoted.double.cs",
+            "source.cs comment.block.documentation.cs string.quoted.single.cs"
+          ],
+          "settings": {
+            "foreground": "#C8C8C8",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - cdata section",
+          "scope": [
+            "source.cs string.unquoted.cdata.cs"
+          ],
+          "settings": {
+            "foreground": "#E9D585",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - comment",
+          "scope": [
+            "source.cs comment.block.documentation.cs comment.block.cs"
+          ],
+          "settings": {
+            "foreground": "#608B4E",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - entity reference",
+          "scope": [
+            "source.cs constant.character.entity.cs",
+            "source.cs punctuation.definition.constant.cs",
+            "source.cs invalid.illegal.bad-ampersand.cs"
+          ],
+          "settings": {
+            "foreground": "#608B4E",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: class name",
+          "scope": [
+            "source.cs entity.name.type.class.cs",
+            "source.cs entity.name.type.cs",
+            "source.cs entity.name.type.alias.cs"
+          ],
+          "settings": {
+            "foreground": "#4EC9B0",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: struct name",
+          "scope": [
+            "source.cs entity.name.type.struct.cs"
+          ],
+          "settings": {
+            "foreground": "#86C691",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: interface name",
+          "scope": [
+            "source.cs entity.name.type.interface.cs"
+          ],
+          "settings": {
+            "foreground": "#B8D7A3",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: enum name",
+          "scope": [
+            "source.cs entity.name.type.enum.cs"
+          ],
+          "settings": {
+            "foreground": "#B8D7A3",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: delegate name",
+          "scope": [
+            "source.cs entity.name.type.delegate.cs"
+          ],
+          "settings": {
+            "foreground": "#4EC9B0",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: type parameter name",
+          "scope": [
+            "source.cs entity.name.type.type-parameter.cs"
+          ],
+          "settings": {
+            "foreground": "#B8D7A3",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: namespace name",
+          "scope": [
+            "source.cs entity.name.type.namespace.cs",
+            "source.cs variable.other.alias.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: method name",
+          "scope": [
+            "source.cs entity.name.function.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCAA",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: property name",
+          "scope": [
+            "source.cs entity.name.variable.property.cs",
+            "source.cs variable.other.object.property.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: event name",
+          "scope": [
+            "source.cs entity.name.variable.event.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: field name",
+          "scope": [
+            "source.cs entity.name.variable.field.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: constant name",
+          "scope": [
+            "source.cs variable.other.constant.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: enum member name",
+          "scope": [
+            "source.cs entity.name.variable.enum-member.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: local name",
+          "scope": [
+            "source.cs entity.name.variable.local.cs",
+            "source.cs entity.name.variable.range-variable.cs",
+            "source.cs entity.name.variable.tuple-element.cs",
+            "source.cs variable.other.readwrite.cs",
+            "source.cs entity.name.variable.preprocessor.symbol.cs"
+          ],
+          "settings": {
+            "foreground": "#9CDCFE",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: parameter name",
+          "scope": [
+            "source.cs entity.name.variable.parameter.cs",
+            "source.cs variable.other.value.cs"
+          ],
+          "settings": {
+            "foreground": "#9CDCFE",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: label name",
+          "scope": [
+            "source.cs entity.name.label.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Identifier",
+          "scope": [
+            "source.cs variable.other.object.cs"
+          ],
+          "settings": {
+            "foreground": "#DCDCDC",
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+    "[Light 2026]": {
+      "textMateRules": [
+        {
+          "name": "Visual Studio: Plain Text",
+          "scope": [
+            "source.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Comment",
+          "scope": [
+            "source.cs comment.line.double-slash.cs",
+            "source.cs comment.block.cs",
+            "source.cs punctuation.definition.comment.cs"
+          ],
+          "settings": {
+            "foreground": "#008000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Keyword",
+          "scope": [
+            "source.cs keyword.type.bool.cs",
+            "source.cs keyword.type.byte.cs",
+            "source.cs keyword.type.sbyte.cs",
+            "source.cs keyword.type.short.cs",
+            "source.cs keyword.type.ushort.cs",
+            "source.cs keyword.type.int.cs",
+            "source.cs keyword.type.uint.cs",
+            "source.cs keyword.type.nint.cs",
+            "source.cs keyword.type.nuint.cs",
+            "source.cs keyword.type.long.cs",
+            "source.cs keyword.type.ulong.cs",
+            "source.cs keyword.type.float.cs",
+            "source.cs keyword.type.double.cs",
+            "source.cs keyword.type.decimal.cs",
+            "source.cs keyword.type.char.cs",
+            "source.cs keyword.type.string.cs",
+            "source.cs keyword.type.object.cs",
+            "source.cs keyword.type.void.cs",
+            "source.cs keyword.type.dynamic.cs",
+            "source.cs storage.modifier.new.cs",
+            "source.cs storage.modifier.public.cs",
+            "source.cs storage.modifier.protected.cs",
+            "source.cs storage.modifier.internal.cs",
+            "source.cs storage.modifier.private.cs",
+            "source.cs storage.modifier.abstract.cs",
+            "source.cs storage.modifier.virtual.cs",
+            "source.cs storage.modifier.override.cs",
+            "source.cs storage.modifier.sealed.cs",
+            "source.cs storage.modifier.static.cs",
+            "source.cs storage.modifier.partial.cs",
+            "source.cs storage.modifier.readonly.cs",
+            "source.cs storage.modifier.volatile.cs",
+            "source.cs storage.modifier.const.cs",
+            "source.cs storage.modifier.extern.cs",
+            "source.cs storage.modifier.async.cs",
+            "source.cs storage.modifier.unsafe.cs",
+            "source.cs storage.modifier.ref.cs",
+            "source.cs storage.modifier.required.cs",
+            "source.cs storage.modifier.file.cs",
+            "source.cs storage.modifier.in.cs",
+            "source.cs storage.modifier.out.cs",
+            "source.cs storage.modifier.params.cs",
+            "source.cs storage.modifier.this.cs",
+            "source.cs storage.modifier.explicit.cs",
+            "source.cs storage.modifier.implicit.cs",
+            "source.cs storage.modifier.fixed.cs",
+            "source.cs storage.modifier.where.cs",
+            "source.cs storage.type.class.cs",
+            "source.cs storage.type.delegate.cs",
+            "source.cs storage.type.enum.cs",
+            "source.cs storage.type.event.cs",
+            "source.cs storage.type.interface.cs",
+            "source.cs storage.type.namespace.cs",
+            "source.cs storage.type.operator.cs",
+            "source.cs storage.type.record.cs",
+            "source.cs storage.type.struct.cs",
+            "source.cs storage.type.union.cs",
+            "source.cs storage.type.var.cs",
+            "source.cs storage.type.accessor.get.cs",
+            "source.cs storage.type.accessor.set.cs",
+            "source.cs storage.type.accessor.init.cs",
+            "source.cs storage.type.accessor.add.cs",
+            "source.cs storage.type.accessor.remove.cs",
+            "source.cs keyword.other.attribute-specifier.cs",
+            "source.cs keyword.other.constraint.default.cs",
+            "source.cs keyword.other.constraint.notnull.cs",
+            "source.cs keyword.other.constraint.unmanaged.cs",
+            "source.cs keyword.other.directive.alias.cs",
+            "source.cs keyword.other.directive.extern.cs",
+            "source.cs keyword.other.directive.global.cs",
+            "source.cs keyword.other.directive.static.cs",
+            "source.cs keyword.other.directive.using.cs",
+            "source.cs keyword.operator.expression.as.cs",
+            "source.cs keyword.operator.expression.default.cs",
+            "source.cs keyword.operator.expression.new.cs",
+            "source.cs keyword.operator.expression.pattern.is.cs",
+            "source.cs keyword.operator.expression.with.cs",
+            "source.cs keyword.operator.expression.checked.cs",
+            "source.cs keyword.operator.expression.unchecked.cs",
+            "source.cs keyword.operator.expression.nameof.cs",
+            "source.cs keyword.operator.expression.sizeof.cs",
+            "source.cs keyword.operator.expression.typeof.cs",
+            "source.cs keyword.operator.expression.stackalloc.cs",
+            "source.cs keyword.operator.expression.pattern.combinator.and.cs",
+            "source.cs keyword.operator.expression.pattern.combinator.or.cs",
+            "source.cs keyword.operator.expression.pattern.combinator.not.cs",
+            "source.cs keyword.operator.expression.query.ascending.cs",
+            "source.cs keyword.operator.expression.query.by.cs",
+            "source.cs keyword.operator.expression.query.descending.cs",
+            "source.cs keyword.operator.expression.query.equals.cs",
+            "source.cs keyword.operator.expression.query.from.cs",
+            "source.cs keyword.operator.expression.query.group.cs",
+            "source.cs keyword.operator.expression.query.in.cs",
+            "source.cs keyword.operator.expression.query.into.cs",
+            "source.cs keyword.operator.expression.query.join.cs",
+            "source.cs keyword.operator.expression.query.let.cs",
+            "source.cs keyword.operator.expression.query.on.cs",
+            "source.cs keyword.operator.expression.query.orderby.cs",
+            "source.cs keyword.operator.expression.query.select.cs",
+            "source.cs keyword.operator.expression.query.where.cs",
+            "source.cs keyword.control.context.fixed.cs",
+            "source.cs keyword.control.context.lock.cs",
+            "source.cs keyword.control.context.using.cs",
+            "source.cs keyword.control.context.checked.cs",
+            "source.cs keyword.control.context.unchecked.cs",
+            "source.cs keyword.control.context.unsafe.cs",
+            "source.cs variable.language.this.cs",
+            "source.cs variable.language.base.cs",
+            "source.cs variable.language.discard.cs",
+            "source.cs meta.accessor.setter.cs variable.other.value.cs",
+            "source.cs constant.language.boolean.true.cs",
+            "source.cs constant.language.boolean.false.cs",
+            "source.cs constant.language.null.cs"
+          ],
+          "settings": {
+            "foreground": "#0000FF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: keyword - control",
+          "scope": [
+            "source.cs keyword.control.conditional.case.cs",
+            "source.cs keyword.control.conditional.default.cs",
+            "source.cs keyword.control.conditional.else.cs",
+            "source.cs keyword.control.conditional.if.cs",
+            "source.cs keyword.control.conditional.switch.cs",
+            "source.cs keyword.control.conditional.when.cs",
+            "source.cs keyword.control.exception.catch.cs",
+            "source.cs keyword.control.exception.finally.cs",
+            "source.cs keyword.control.exception.try.cs",
+            "source.cs keyword.control.exception.when.cs",
+            "source.cs keyword.control.flow.break.cs",
+            "source.cs keyword.control.flow.continue.cs",
+            "source.cs keyword.control.flow.goto.cs",
+            "source.cs keyword.control.flow.return.cs",
+            "source.cs keyword.control.flow.throw.cs",
+            "source.cs keyword.control.flow.yield.cs",
+            "source.cs keyword.control.loop.do.cs",
+            "source.cs keyword.control.loop.for.cs",
+            "source.cs keyword.control.loop.foreach.cs",
+            "source.cs keyword.control.loop.in.cs",
+            "source.cs keyword.control.loop.while.cs",
+            "source.cs keyword.operator.expression.await.cs"
+          ],
+          "settings": {
+            "foreground": "#8F08C4",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Operator",
+          "scope": [
+            "source.cs keyword.operator.arithmetic.cs",
+            "source.cs keyword.operator.arrow.cs",
+            "source.cs keyword.operator.assignment.cs",
+            "source.cs keyword.operator.assignment.compound.cs",
+            "source.cs keyword.operator.assignment.compound.bitwise.cs",
+            "source.cs keyword.operator.bitwise.cs",
+            "source.cs keyword.operator.bitwise.shift.cs",
+            "source.cs keyword.operator.comparison.cs",
+            "source.cs keyword.operator.conditional.colon.cs",
+            "source.cs keyword.operator.conditional.question-mark.cs",
+            "source.cs keyword.operator.decrement.cs",
+            "source.cs keyword.operator.increment.cs",
+            "source.cs keyword.operator.logical.cs",
+            "source.cs keyword.operator.null-coalescing.cs",
+            "source.cs keyword.operator.null-conditional.cs",
+            "source.cs keyword.operator.relational.cs",
+            "source.cs punctuation.accessor.cs",
+            "source.cs punctuation.accessor.pointer.cs",
+            "source.cs punctuation.separator.coloncolon.cs",
+            "source.cs punctuation.separator.question-mark.cs",
+            "source.cs punctuation.separator.asterisk.cs",
+            "source.cs punctuation.tilde.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: punctuation",
+          "scope": [
+            "source.cs punctuation.curlybrace.open.cs",
+            "source.cs punctuation.curlybrace.close.cs",
+            "source.cs punctuation.parenthesis.open.cs",
+            "source.cs punctuation.parenthesis.close.cs",
+            "source.cs punctuation.squarebracket.open.cs",
+            "source.cs punctuation.squarebracket.close.cs",
+            "source.cs punctuation.definition.typeparameters.begin.cs",
+            "source.cs punctuation.definition.typeparameters.end.cs",
+            "source.cs punctuation.terminator.statement.cs",
+            "source.cs punctuation.separator.comma.cs",
+            "source.cs punctuation.separator.colon.cs",
+            "source.cs keyword.operator.range.cs",
+            "source.cs meta.embedded.interpolation.cs",
+            "source.cs punctuation.definition.interpolation.begin.cs",
+            "source.cs punctuation.definition.interpolation.end.cs",
+            "source.cs meta.embedded.interpolation.cs keyword.operator.conditional.colon.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Number",
+          "scope": [
+            "source.cs constant.numeric.decimal.cs",
+            "source.cs constant.numeric.hex.cs",
+            "source.cs constant.numeric.binary.cs",
+            "source.cs constant.numeric.other.exponent.cs",
+            "source.cs constant.numeric.other.preffix.hex.cs",
+            "source.cs constant.numeric.other.preffix.binary.cs",
+            "source.cs constant.numeric.other.separator.decimals.cs",
+            "source.cs constant.numeric.other.separator.thousands.cs",
+            "source.cs constant.numeric.other.suffix.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: String",
+          "scope": [
+            "source.cs string.quoted.double.cs",
+            "source.cs string.quoted.single.cs",
+            "source.cs punctuation.definition.string.begin.cs",
+            "source.cs punctuation.definition.string.end.cs",
+            "source.cs punctuation.definition.char.begin.cs",
+            "source.cs punctuation.definition.char.end.cs"
+          ],
+          "settings": {
+            "foreground": "#A31515",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: string - escape character",
+          "scope": [
+            "source.cs constant.character.escape.cs"
+          ],
+          "settings": {
+            "foreground": "#B776FB",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Preprocessor Keyword",
+          "scope": [
+            "source.cs meta.preprocessor.cs",
+            "source.cs punctuation.separator.hash.cs",
+            "source.cs keyword.preprocessor.checksum.cs",
+            "source.cs keyword.preprocessor.default.cs",
+            "source.cs keyword.preprocessor.define.cs",
+            "source.cs keyword.preprocessor.disable.cs",
+            "source.cs keyword.preprocessor.elif.cs",
+            "source.cs keyword.preprocessor.else.cs",
+            "source.cs keyword.preprocessor.endif.cs",
+            "source.cs keyword.preprocessor.endregion.cs",
+            "source.cs keyword.preprocessor.error.cs",
+            "source.cs keyword.preprocessor.exclude.cs",
+            "source.cs keyword.preprocessor.hidden.cs",
+            "source.cs keyword.preprocessor.if.cs",
+            "source.cs keyword.preprocessor.include.cs",
+            "source.cs keyword.preprocessor.line.cs",
+            "source.cs keyword.preprocessor.load.cs",
+            "source.cs keyword.preprocessor.package.cs",
+            "source.cs keyword.preprocessor.pragma.cs",
+            "source.cs keyword.preprocessor.project.cs",
+            "source.cs keyword.preprocessor.property.cs",
+            "source.cs keyword.preprocessor.r.cs",
+            "source.cs keyword.preprocessor.ref.cs",
+            "source.cs keyword.preprocessor.region.cs",
+            "source.cs keyword.preprocessor.restore.cs",
+            "source.cs keyword.preprocessor.sdk.cs",
+            "source.cs keyword.preprocessor.undef.cs",
+            "source.cs keyword.preprocessor.warning.cs"
+          ],
+          "settings": {
+            "foreground": "#808080",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: preprocessor text",
+          "scope": [
+            "source.cs string.unquoted.preprocessor.message.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - text",
+          "scope": [
+            "source.cs comment.block.documentation.cs"
+          ],
+          "settings": {
+            "foreground": "#008000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - delimiter",
+          "scope": [
+            "source.cs comment.block.documentation.cs punctuation.definition.comment.cs",
+            "source.cs comment.block.documentation.cs punctuation.definition.tag.cs",
+            "source.cs comment.block.documentation.cs punctuation.separator.equals.cs",
+            "source.cs comment.block.documentation.cs comment.block.cs punctuation.definition.comment.cs",
+            "source.cs comment.block.documentation.cs string.unquoted.cdata.cs punctuation.definition.string.begin.cs",
+            "source.cs comment.block.documentation.cs string.unquoted.cdata.cs punctuation.definition.string.end.cs"
+          ],
+          "settings": {
+            "foreground": "#808080",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - name",
+          "scope": [
+            "source.cs entity.name.tag.cs",
+            "source.cs entity.name.tag.localname.cs",
+            "source.cs entity.name.tag.namespace.cs"
+          ],
+          "settings": {
+            "foreground": "#808080",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - attribute name",
+          "scope": [
+            "source.cs entity.other.attribute-name.cs",
+            "source.cs entity.other.attribute-name.localname.cs",
+            "source.cs entity.other.attribute-name.namespace.cs"
+          ],
+          "settings": {
+            "foreground": "#808080",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - attribute quotes",
+          "scope": [
+            "source.cs comment.block.documentation.cs meta.tag.cs punctuation.definition.string.begin.cs",
+            "source.cs comment.block.documentation.cs meta.tag.cs punctuation.definition.string.end.cs"
+          ],
+          "settings": {
+            "foreground": "#808080",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - attribute value",
+          "scope": [
+            "source.cs comment.block.documentation.cs string.quoted.double.cs",
+            "source.cs comment.block.documentation.cs string.quoted.single.cs"
+          ],
+          "settings": {
+            "foreground": "#808080",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - cdata section",
+          "scope": [
+            "source.cs string.unquoted.cdata.cs"
+          ],
+          "settings": {
+            "foreground": "#808080",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - comment",
+          "scope": [
+            "source.cs comment.block.documentation.cs comment.block.cs"
+          ],
+          "settings": {
+            "foreground": "#808080",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: xml doc comment - entity reference",
+          "scope": [
+            "source.cs constant.character.entity.cs",
+            "source.cs punctuation.definition.constant.cs",
+            "source.cs invalid.illegal.bad-ampersand.cs"
+          ],
+          "settings": {
+            "foreground": "#008000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: class name",
+          "scope": [
+            "source.cs entity.name.type.class.cs",
+            "source.cs entity.name.type.cs",
+            "source.cs entity.name.type.alias.cs"
+          ],
+          "settings": {
+            "foreground": "#2B91AF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: struct name",
+          "scope": [
+            "source.cs entity.name.type.struct.cs"
+          ],
+          "settings": {
+            "foreground": "#2B91AF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: interface name",
+          "scope": [
+            "source.cs entity.name.type.interface.cs"
+          ],
+          "settings": {
+            "foreground": "#2B91AF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: enum name",
+          "scope": [
+            "source.cs entity.name.type.enum.cs"
+          ],
+          "settings": {
+            "foreground": "#2B91AF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: delegate name",
+          "scope": [
+            "source.cs entity.name.type.delegate.cs"
+          ],
+          "settings": {
+            "foreground": "#2B91AF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: type parameter name",
+          "scope": [
+            "source.cs entity.name.type.type-parameter.cs"
+          ],
+          "settings": {
+            "foreground": "#2B91AF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: namespace name",
+          "scope": [
+            "source.cs entity.name.type.namespace.cs",
+            "source.cs variable.other.alias.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: method name",
+          "scope": [
+            "source.cs entity.name.function.cs"
+          ],
+          "settings": {
+            "foreground": "#74531F",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: property name",
+          "scope": [
+            "source.cs entity.name.variable.property.cs",
+            "source.cs variable.other.object.property.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: event name",
+          "scope": [
+            "source.cs entity.name.variable.event.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: field name",
+          "scope": [
+            "source.cs entity.name.variable.field.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: constant name",
+          "scope": [
+            "source.cs variable.other.constant.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: enum member name",
+          "scope": [
+            "source.cs entity.name.variable.enum-member.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: local name",
+          "scope": [
+            "source.cs entity.name.variable.local.cs",
+            "source.cs entity.name.variable.range-variable.cs",
+            "source.cs entity.name.variable.tuple-element.cs",
+            "source.cs variable.other.readwrite.cs",
+            "source.cs entity.name.variable.preprocessor.symbol.cs"
+          ],
+          "settings": {
+            "foreground": "#1F377F",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: parameter name",
+          "scope": [
+            "source.cs entity.name.variable.parameter.cs",
+            "source.cs variable.other.value.cs"
+          ],
+          "settings": {
+            "foreground": "#1F377F",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: label name",
+          "scope": [
+            "source.cs entity.name.label.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "Visual Studio: Identifier",
+          "scope": [
+            "source.cs variable.other.object.cs"
+          ],
+          "settings": {
+            "foreground": "#000000",
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  }
+}
