@@ -426,3 +426,6 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# Output of the tool when run from the repo root (the ready-made files are in presets/)
+/settings.json

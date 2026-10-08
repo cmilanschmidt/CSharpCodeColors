@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 
 namespace CSharpCodeColors.Options;
 
-/// <summary>Gives the validated settings, or a <see cref="FatalException"/> saying what is wrong with appsettings.json.</summary>
+/// <summary>Gives the validated settings, or a <see cref="FatalException"/> saying what is wrong with appsettings.jsonc.</summary>
 internal sealed class AppOptionsReader(IOptions<AppOptions> options, AppSettingsFile file)
 {
     public AppOptions Read()

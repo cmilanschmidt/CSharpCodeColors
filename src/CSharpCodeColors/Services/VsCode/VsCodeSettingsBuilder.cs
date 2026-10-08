@@ -11,7 +11,11 @@ namespace CSharpCodeColors.Services.VsCode;
 /// <summary>Turns the mappings and the colors read from Visual Studio into VS Code settings.</summary>
 internal static class VsCodeSettingsBuilder
 {
-    public static BuildResult Build(AppOptions settings, ColorResolver colors)
+    /// <summary>
+    /// With <paramref name="adaptation"/>, items are written in the adapted styles and the output is scoped to the
+    /// adapted theme (settings validation keeps VsCodeThemeScope null then).
+    /// </summary>
+    public static BuildResult Build(AppOptions settings, ColorResolver colors, ThemeAdaptation? adaptation = null)
     {
         var semanticRules = new JsonObject();
         var textMateRules = new JsonArray();
@@ -51,7 +55,7 @@ internal static class VsCodeSettingsBuilder
                 warnings.Add($"\"{item.Name}\" has background {background} in Visual Studio; VS Code token rules can't set a background, so it was skipped.");
             }
 
-            var style = StyleFor(item, colors);
+            var style = adaptation != null && adaptation.Styles.TryGetValue(item.Name, out var adapted) ? adapted : StyleFor(item, colors);
             if (style == null)
             {
                 if (firstTime)
@@ -75,7 +79,7 @@ internal static class VsCodeSettingsBuilder
         var semantic = new JsonObject { ["enabled"] = true, ["rules"] = semanticRules };
         var textMate = new JsonObject { ["textMateRules"] = textMateRules };
         var root = new JsonObject();
-        if (settings.VsCodeThemeScope is { } theme)
+        if ((adaptation?.Theme.Contribution.SettingsId ?? settings.VsCodeThemeScope) is { } theme)
         {
             root["editor.semanticTokenColorCustomizations"] = new JsonObject { [$"[{theme}]"] = semantic };
             root["editor.tokenColorCustomizations"] = new JsonObject { [$"[{theme}]"] = textMate };
@@ -86,7 +90,9 @@ internal static class VsCodeSettingsBuilder
             root["editor.tokenColorCustomizations"] = textMate;
         }
 
-        string json = root.ToJsonString(new JsonSerializerOptions { WriteIndented = true }) + Environment.NewLine;
+        // Relaxed escaping keeps theme names readable ("[Dark+]" rather than "[Dark\u002B]"); the file never goes into HTML.
+        var options = new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
+        string json = root.ToJsonString(options) + Environment.NewLine;
         return new BuildResult(json, semanticRules.Count, textMateRules.Count, mapped, missing, backgrounds, nothingToEmit, warnings);
     }
 

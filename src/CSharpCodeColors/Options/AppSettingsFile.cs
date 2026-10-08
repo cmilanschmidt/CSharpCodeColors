@@ -1,6 +1,6 @@
 namespace CSharpCodeColors.Options;
 
-/// <summary>The appsettings.json the settings come from, and why loading it failed, if it did.</summary>
+/// <summary>The appsettings.jsonc the settings come from, and why loading it failed, if it did.</summary>
 internal sealed class AppSettingsFile(string path)
 {
     public string Path { get; } = path;

@@ -32,7 +32,7 @@ public class AppOptionsTests
     [Test]
     public async Task Malformed_json_is_reported() =>
         await Assert.That(Error("{\n  \"Mappings\": [\n    { \"VisualStudioItem\": \"x\" \"SemanticTokens\": [] }\n  ]\n}"))
-            .StartsWith("Can't load appsettings.json:");
+            .StartsWith("Can't load appsettings.jsonc:");
 
     [Test]
     public async Task Unknown_property_is_reported() =>
@@ -42,7 +42,7 @@ public class AppOptionsTests
     public async Task Wrong_type_is_reported() => await Assert.That(Error("""{ "Mappings": "x" }""")).Contains("'Mappings'");
 
     [Test]
-    public async Task Empty_file_is_reported() => await Assert.That(Error("")).Contains("appsettings.json");
+    public async Task Empty_file_is_reported() => await Assert.That(Error("")).Contains("appsettings.jsonc");
 
     [Test]
     public async Task Json_null_is_reported() => await Assert.That(Error("null")).Contains("must be an object");
@@ -188,4 +188,29 @@ public class AppOptionsTests
     public async Task Bad_theme_scope_is_rejected(string theme) =>
         await Assert.That(Error($$"""{ "VsCodeThemeScope": "{{theme}}", "Mappings": [ { "VisualStudioItem": "x", "SemanticTokens": [ "class:csharp" ] } ] }"""))
             .Contains("VsCodeThemeScope");
+
+    [Test]
+    public async Task Adapt_settings_are_read()
+    {
+        var settings = Parse("""{ "AdaptToVsCodeTheme": "Dark Modern", "VsCodePath": "D:/Tools/VS Code", "Mappings": [ { "VisualStudioItem": "x", "SemanticTokens": [ "class:csharp" ] } ] }""");
+        await Assert.That((settings.AdaptToVsCodeTheme, settings.VsCodePath)).IsEqualTo(("Dark Modern", "D:/Tools/VS Code"));
+    }
+
+    [Test]
+    [Arguments("\"\"")]
+    [Arguments("\" Dark Modern\"")]
+    [Arguments("\"[Dark Modern]\"")]
+    public async Task Bad_adapt_theme_is_rejected(string theme) =>
+        await Assert.That(Error($$"""{ "AdaptToVsCodeTheme": {{theme}}, "Mappings": [ { "VisualStudioItem": "x", "SemanticTokens": [ "class:csharp" ] } ] }"""))
+            .Contains("AdaptToVsCodeTheme");
+
+    [Test]
+    public async Task Scope_and_adapt_theme_together_are_rejected() =>
+        await Assert.That(Error("""{ "VsCodeThemeScope": "Dark Modern", "AdaptToVsCodeTheme": "Dark Modern", "Mappings": [ { "VisualStudioItem": "x", "SemanticTokens": [ "class:csharp" ] } ] }"""))
+            .Contains("not both");
+
+    [Test]
+    public async Task Empty_VS_Code_path_is_rejected() =>
+        await Assert.That(Error("""{ "VsCodePath": " ", "Mappings": [ { "VisualStudioItem": "x", "SemanticTokens": [ "class:csharp" ] } ] }"""))
+            .Contains("VsCodePath");
 }

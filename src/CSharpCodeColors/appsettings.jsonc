@@ -1,4 +1,4 @@
-// VS Fonts and Colors item -> VS Code C# selectors. Comments and trailing commas are allowed.
+// VS Fonts and Colors item -> VS Code C# selectors. Comments are allowed (JSON with Comments).
 // VisualStudioItem: the name exactly as `CSharpCodeColors --list` prints it.
 // SemanticTokens: "<tokenType>[.<modifier>]:csharp" as sent by the C# extension's Roslyn server.
 // TextMateScopes: scopes of VS Code's built-in C# grammar; each must end in ".cs" or start with "source.cs".
@@ -7,6 +7,11 @@
 {
   "OutputPath": "settings.json",
   "VsCodeThemeScope": null,
+  // A VS Code theme name (see --themes), e.g. "Dark Modern": write the theme's own colors, plus colors that fit
+  // the theme for the distinctions Visual Studio makes and the theme doesn't. null: Visual Studio's colors.
+  "AdaptToVsCodeTheme": null,
+  // The VS Code folder with Code.exe, for AdaptToVsCodeTheme and --themes; null: the default install locations.
+  "VsCodePath": null,
   "Mappings": [
     // Base color of all C# text that no other rule colors.
     { "VisualStudioItem": "Plain Text", "TextMateScopes": [ "source.cs" ] },
@@ -206,6 +211,6 @@
     { "VisualStudioItem": "json - property name", "SemanticTokens": [ "jsonPropertyName:csharp" ] },
     { "VisualStudioItem": "json - punctuation", "SemanticTokens": [ "jsonPunctuation:csharp" ] },
     { "VisualStudioItem": "json - string", "SemanticTokens": [ "jsonString:csharp" ] },
-    { "VisualStudioItem": "json - text", "SemanticTokens": [ "jsonText:csharp" ] },
-  ],
+    { "VisualStudioItem": "json - text", "SemanticTokens": [ "jsonText:csharp" ] }
+  ]
 }

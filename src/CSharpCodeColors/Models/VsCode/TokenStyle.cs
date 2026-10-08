@@ -3,7 +3,8 @@ using CSharpCodeColors.Models.Colors;
 
 namespace CSharpCodeColors.Models.VsCode;
 
-internal sealed record TokenStyle(RgbColor? Foreground, bool Bold, bool Additive)
+/// <summary>The style written for a token. A null <see cref="Bold"/> writes no font style, leaving it to the theme.</summary>
+internal sealed record TokenStyle(RgbColor? Foreground, bool? Bold, bool Additive)
 {
     public JsonObject ToSemanticRule()
     {
@@ -12,12 +13,12 @@ internal sealed record TokenStyle(RgbColor? Foreground, bool Bold, bool Additive
             rule["foreground"] = color.ToString();
         if (Additive)
         {
-            if (Bold)
+            if (Bold == true)
                 rule["bold"] = true;
         }
-        else
+        else if (Bold is { } bold)
         {
-            rule["fontStyle"] = Bold ? "bold" : "";
+            rule["fontStyle"] = bold ? "bold" : "";
         }
         return rule;
     }
@@ -27,8 +28,8 @@ internal sealed record TokenStyle(RgbColor? Foreground, bool Bold, bool Additive
         var rule = new JsonObject();
         if (Foreground is { } color)
             rule["foreground"] = color.ToString();
-        if (!Additive || Bold)
-            rule["fontStyle"] = Bold ? "bold" : "";
+        if (Bold is { } bold && (!Additive || bold))
+            rule["fontStyle"] = bold ? "bold" : "";
         return rule;
     }
 }

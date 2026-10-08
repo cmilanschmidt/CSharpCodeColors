@@ -20,7 +20,7 @@ internal static class TestOptions
         }
         catch (Exception e)
         {
-            // What the OnLoadException handler in Program.cs does for appsettings.json.
+            // What the OnLoadException handler in Program.cs does for appsettings.jsonc.
             file.LoadError = $"Can't load {file.Path}: {e.GetBaseException().Message}";
             configuration = new ConfigurationBuilder().Build();
         }

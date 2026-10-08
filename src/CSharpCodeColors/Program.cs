@@ -7,7 +7,7 @@ using Microsoft.Extensions.Hosting;
 // An empty builder: no environment variables, command-line configuration or appsettings.{Environment}.json.
 var builder = Host.CreateEmptyApplicationBuilder(new HostApplicationBuilderSettings { Args = args });
 
-// Settings: appsettings.json next to the executable (the default content root). It is bound from a configuration
+// Settings: appsettings.jsonc next to the executable (the default content root). It is bound from a configuration
 // of its own, so that keys the host adds (such as contentRoot) don't count as unknown settings. A load error
 // doesn't stop the host from building; AppOptionsReader reports it through logging like every other error.
 var settingsFile = new AppSettingsFile(Path.Combine(builder.Environment.ContentRootPath, FileNames.AppSettings));

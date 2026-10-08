@@ -3,13 +3,23 @@ using System.Text.RegularExpressions;
 
 namespace CSharpCodeColors.Options;
 
-/// <summary>The settings in appsettings.json, bound through Microsoft.Extensions.Configuration.</summary>
+/// <summary>The settings in appsettings.jsonc, bound through Microsoft.Extensions.Configuration.</summary>
 internal sealed class AppOptions
 {
     public string OutputPath { get; set; } = "settings.json";
 
-    /// <summary>VS Code theme name to scope the overrides to, e.g. "Default Dark Modern"; null for all themes.</summary>
+    /// <summary>VS Code theme name to scope the overrides to, e.g. "Dark Modern"; null for all themes. Must be null with AdaptToVsCodeTheme, which scopes to the adapted theme.</summary>
     public string? VsCodeThemeScope { get; set; }
+
+    /// <summary>
+    /// A VS Code theme to adapt the Visual Studio colors to, e.g. "Dark Modern": the output uses that theme's
+    /// colors and only adds colors for the distinctions Visual Studio makes and the theme doesn't. Null writes
+    /// Visual Studio's own colors.
+    /// </summary>
+    public string? AdaptToVsCodeTheme { get; set; }
+
+    /// <summary>The VS Code installation folder (the one with Code.exe); null to look in the default locations.</summary>
+    public string? VsCodePath { get; set; }
 
     public List<MappingOptions> Mappings { get; set; } = [];
 
@@ -49,12 +59,12 @@ internal sealed class AppOptions
         var errors = new List<string>();
         if (string.IsNullOrWhiteSpace(OutputPath))
             errors.Add("OutputPath must not be empty.");
-        if (VsCodeThemeScope != null && VsCodeThemeScope.Trim().Length == 0)
-            errors.Add("VsCodeThemeScope must be null or a VS Code theme name.");
-        else if (VsCodeThemeScope != null && VsCodeThemeScope != VsCodeThemeScope.Trim())
-            errors.Add($"VsCodeThemeScope {Show(VsCodeThemeScope)} has leading or trailing spaces; VS Code matches theme names exactly.");
-        if (VsCodeThemeScope != null && (VsCodeThemeScope.Contains('[') || VsCodeThemeScope.Contains(']')))
-            errors.Add("VsCodeThemeScope is the plain theme name, without brackets (e.g. \"Default Dark Modern\").");
+        ValidateThemeName(nameof(VsCodeThemeScope), VsCodeThemeScope, errors);
+        ValidateThemeName(nameof(AdaptToVsCodeTheme), AdaptToVsCodeTheme, errors);
+        if (VsCodeThemeScope != null && AdaptToVsCodeTheme != null)
+            errors.Add("Set VsCodeThemeScope or AdaptToVsCodeTheme, not both: adapted colors fit only the theme they were adapted to, so they are always scoped to it.");
+        if (VsCodePath != null && VsCodePath.Trim().Length == 0)
+            errors.Add("VsCodePath must be null or the VS Code installation folder.");
         if (Mappings.Count == 0)
         {
             errors.Add("Mappings must contain at least one mapping.");
@@ -90,6 +100,18 @@ internal sealed class AppOptions
             }
         }
         return errors;
+    }
+
+    private static void ValidateThemeName(string key, string? name, List<string> errors)
+    {
+        if (name == null)
+            return;
+        if (name.Trim().Length == 0)
+            errors.Add($"{key} must be null or a VS Code theme name.");
+        else if (name != name.Trim())
+            errors.Add($"{key} {Show(name)} has leading or trailing spaces; VS Code matches theme names exactly.");
+        if (name.Contains('[') || name.Contains(']'))
+            errors.Add($"{key} is the plain theme name, without brackets (e.g. \"Dark Modern\").");
     }
 
     internal static bool IsCSharpScope(string selector)

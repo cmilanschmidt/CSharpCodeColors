@@ -63,6 +63,13 @@ public class VsCodeSettingsBuilderTests
     }
 
     [Test]
+    public async Task Theme_names_are_written_unescaped()
+    {
+        var (result, _) = Build(Settings(ClassMapping, "Dark+"), Explicit("class name", 0x4EC9B0));
+        await Assert.That(result.Json).Contains("\"[Dark+]\"");
+    }
+
+    [Test]
     public async Task Theme_scope_wraps_both_keys()
     {
         var (_, json) = Build(Settings(ClassMapping, "Default Dark Modern"), Explicit("class name", 0x4EC9B0));

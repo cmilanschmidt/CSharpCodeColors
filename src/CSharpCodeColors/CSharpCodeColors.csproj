@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="appsettings.jsonc" CopyToOutputDirectory="PreserveNewest" />
     <InternalsVisibleTo Include="CSharpCodeColors.Tests" />
   </ItemGroup>
 

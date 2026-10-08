@@ -1,0 +1,4 @@
+# Images are binary: no line-ending conversion, no text diffs.
+*.png binary
+*.jpg binary
+*.gif binary
